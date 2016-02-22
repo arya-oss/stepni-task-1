@@ -107,11 +107,13 @@
 	} .form-container {
 		padding-left: 300px;
 	} button {
+		background: none;
 		border: none;
 	} .form-group {
 		display: inline-block;
 		margin: 0;
 		padding: 0;
+		width: 380px;
 	} .advantages {
 		padding: 0px 100px 0px 100px;
 	} .advantages h3 {
@@ -141,6 +143,9 @@
 		height: 200px;
 	} footer p {
 		color: white;
+	} .btn-group {
+		float: right;
+		display: block;
 	}
 	</style>
 </head>
@@ -174,13 +179,13 @@
 
 		<p>Feel Lazy to log onto on Stepni.com ? No, Worries, Just drop your Number here & we will call you right back:</p>
 		<div class="contact-form">
-		<form action="#" method="get">
+		<form action="https://script.google.com/a/macros/student.nitw.ac.in/s/AKfycbz_Zm8bgBzGsVLL5zjObafiPfUHL_IAqwVMpZNZ_-H56j_qAid6/exec" method="get">
 			<div class="form-group">
-				<label for="email"><span>Email ID: </span><input name="email" id="email" class="input-field" placeholder="raghu.dixit@gmail.com" /></label>
-				<label for="phone"><span>Phone Number: </span><input name="phone" id="phone" class="input-field" placeholder="9820868581" />
+				<label for="email"><span>Email ID: </span><input name="email" id="email" class="input-field" placeholder="raghu.dixit@gmail.com" required/></label>
+				<label for="phone"><span>Phone Number: </span><input name="number" id="phone" class="input-field" placeholder="9820868581" required/>
 				</label>				
 			</div>
-			<div class="form-group">
+			<div class="btn-group" style="width: 100px;margin-top:55px;">
 				<button type="submit"><img src="https://dl.dropboxusercontent.com/s/b3f5unr111w3sc8/7.png"></button>
 			</div>
 		</form>
